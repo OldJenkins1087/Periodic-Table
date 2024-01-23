@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Periodic Table</title>
+    <link rel="stylesheet" type="text/css" href="idfk.css">
+</head>
+<body>
+    <center>
+        <h1>Periodic Table</h1>
+        <label>Decimal Place to Round:</label>
+        <input type="number" id="decimal-places" max="5" style="width:30px;">
+
+        <div id="periodic-table">
+            <div class="row">
+                <div class="element" data-atomic-number="1" data-symbol="H" data-name="Hydrogen" data-atomic-mass="1.007975"><span class="number">1</span><p>H</p><span class="mass">1.007975</span></div>
+                <div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div>
+                <div class="element" data-atomic-number="2" data-symbol="He" data-name="Helium" data-atomic-mass="4.0026"><span class="number">2</span><p>He</p><span class="mass">4.0026</span></div>
+            </div>
+            <div class="row">
+                <div class="element" data-atomic-number="3" data-symbol="Li" data-name="Lithium" data-atomic-mass="6.9675"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="4" data-symbol="Be" data-name="Beryllium" data-atomic-mass="9.0122"><span class="number">4</span><p>Li</p><span class="mass">6.9675</span></div>
+                <div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div>
+                <div class="element" data-atomic-number="5" data-symbol="B" data-name="Boron" data-atomic-mass="10.811"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="6" data-symbol="C" data-name="Carbon" data-atomic-mass="12.011"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="7" data-symbol="N" data-name="Nitrogen" data-atomic-mass="14.007"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="8" data-symbol="O" data-name="Oxygen" data-atomic-mass="15.999"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="9" data-symbol="F" data-name="Flourine" data-atomic-mass="18.998"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="10" data-symbol="Ne" data-name="Neon" data-atomic-mass="20.18"><span class="number"></span><p></p><span class="mass"></span></div>
+            </div>
+            <div class="row">
+                <div class="element" data-atomic-number="11" data-symbol="Na" data-name="Sodium" data-atomic-mass="22.99"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="12" data-symbol="Mg" data-name="Magnesium" data-atomic-mass="24.305"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div>
+                <div class="element" data-atomic-number="13" data-symbol="Al" data-name="Aluminum" data-atomic-mass="26.982"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="14" data-symbol="Si" data-name="Silicon" data-atomic-mass="28.086"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="15" data-symbol="P" data-name="Phosphorus" data-atomic-mass="30.974"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="16" data-symbol="S" data-name="Sulfur" data-atomic-mass="32.065"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="17" data-symbol="Cl" data-name="Chlorine" data-atomic-mass="35.453"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="18" data-symbol="Ar" data-name="Argon" data-atomic-mass="39.948"><span class="number"></span><p></p><span class="mass"></span></div>
+            </div>
+            <div class="row">
+                <div class="element" data-atomic-number="19" data-symbol="K" data-name="Potassium" data-atomic-mass="39.098"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="20" data-symbol="Ca" data-name="Calcium" data-atomic-mass="40.078"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="21" data-symbol="Sc" data-name="Scandium" data-atomic-mass="44.956"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="22" data-symbol="Ti" data-name="Titanium" data-atomic-mass="47.867"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="23" data-symbol="V" data-name="Vanadium" data-atomic-mass="50.942"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="24" data-symbol="Cr" data-name="Chromium" data-atomic-mass="51.996"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="25" data-symbol="Mn" data-name="Manganese" data-atomic-mass="54.938"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="26" data-symbol="Fe" data-name="Iron" data-atomic-mass="55.845"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="27" data-symbol="Co" data-name="Cobalt" data-atomic-mass="58.933"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="28" data-symbol="Ni" data-name="Nickel" data-atomic-mass="58.693"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="29" data-symbol="Cu" data-name="Copper" data-atomic-mass="63.546"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="30" data-symbol="Zn" data-name="Zinc" data-atomic-mass="65.38"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="31" data-symbol="Ga" data-name="Gallium" data-atomic-mass="69.723"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="32" data-symbol="Ge" data-name="Germanium" data-atomic-mass="72.64"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="33" data-symbol="As" data-name="Arsenic" data-atomic-mass="74.922"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="34" data-symbol="Se" data-name="Selenium" data-atomic-mass="78.96"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="35" data-symbol="Br" data-name="Bromine" data-atomic-mass="79.904"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="36" data-symbol="Kr" data-name="Krypton" data-atomic-mass="83.798"><span class="number"></span><p></p><span class="mass"></span></div>
+            </div>
+            <div class="row">
+                <div class="element" data-atomic-number="37" data-symbol="Rb" data-name="Rubidium" data-atomic-mass="85.468"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="38" data-symbol="Sr" data-name="Strontium" data-atomic-mass="87.62"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="39" data-symbol="Y" data-name="Yttrium" data-atomic-mass="88.906"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="40" data-symbol="Zr" data-name="Zirconium" data-atomic-mass="91.224"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="41" data-symbol="Nb" data-name="Niobium" data-atomic-mass="92.906"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="42" data-symbol="Mo" data-name="Molybdenum" data-atomic-mass="95.95"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="43" data-symbol="Tc" data-name="Technetium" data-atomic-mass="98"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="44" data-symbol="Ru" data-name="Ruthenium" data-atomic-mass="101.07"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="45" data-symbol="Rh" data-name="Rhodium" data-atomic-mass="102.91"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="46" data-symbol="Pd" data-name="Palladium" data-atomic-mass="106.42"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="47" data-symbol="Ag" data-name="Silver" data-atomic-mass="107.87"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="48" data-symbol="Cd" data-name="Cadmium" data-atomic-mass="112.41"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="49" data-symbol="In" data-name="Indium" data-atomic-mass="114.82"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="50" data-symbol="Sn" data-name="Tin" data-atomic-mass="118.71"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="51" data-symbol="Sb" data-name="Antimony" data-atomic-mass="121.76"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="52" data-symbol="Te" data-name="Tellurium" data-atomic-mass="127.6"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="53" data-symbol="I" data-name="Iodine" data-atomic-mass="126.9"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="54" data-symbol="Xe" data-name="Xenon" data-atomic-mass="131.29"><span class="number"></span><p></p><span class="mass"></span></div>
+            </div>
+            <div class="row">
+                <div class="element" data-atomic-number="55" data-symbol="Cs" data-name="Caesium" data-atomic-mass="132.91"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="56" data-symbol="Ba" data-name="Barium" data-atomic-mass="137.33"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="57" data-symbol="La" data-name="Lanthanum" data-atomic-mass="138.91"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="72" data-symbol="Hf" data-name="Hafnium" data-atomic-mass="178.49"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="73" data-symbol="Ta" data-name="Tantalum" data-atomic-mass="180.95"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="74" data-symbol="W" data-name="Tungsten" data-atomic-mass="183.84"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="75" data-symbol="Re" data-name="Rhenium" data-atomic-mass="186.21"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="76" data-symbol="Os" data-name="Osmium" data-atomic-mass="190.23"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="77" data-symbol="Ir" data-name="Iridium" data-atomic-mass="192.22"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="78" data-symbol="Pt" data-name="Platinum" data-atomic-mass="195.08"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="79" data-symbol="Au" data-name="Gold" data-atomic-mass="196.97"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="80" data-symbol="Hg" data-name="Mercury" data-atomic-mass="200.59"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="81" data-symbol="Tl" data-name="Thallium" data-atomic-mass="204.38"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="82" data-symbol="Pb" data-name="Lead" data-atomic-mass="207.2"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="83" data-symbol="Bi" data-name="Bismuth" data-atomic-mass="208.98"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="84" data-symbol="Po" data-name="Polonium" data-atomic-mass="209"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="85" data-symbol="At" data-name="Astatine" data-atomic-mass="210"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="86" data-symbol="Rn" data-name="Radon" data-atomic-mass="222"><span class="number"></span><p></p><span class="mass"></span></div>
+            </div>
+            <div class="row">
+                <div class="element" data-atomic-number="87" data-symbol="Fr" data-name="Francium" data-atomic-mass="223"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="88" data-symbol="Ra" data-name="Radium" data-atomic-mass="226"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="89" data-symbol="Ac" data-name="Actinium" data-atomic-mass="227"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="104" data-symbol="Rf" data-name="Rutherfordium" data-atomic-mass="267"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="105" data-symbol="Db" data-name="Dubnium" data-atomic-mass="262"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="106" data-symbol="Sg" data-name="Seaborgium" data-atomic-mass="269"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="107" data-symbol="Bh" data-name="Bohrium" data-atomic-mass="264"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="108" data-symbol="Hs" data-name="Hassium" data-atomic-mass="269"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="109" data-symbol="Mt" data-name="Meitnerium" data-atomic-mass="278"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="110" data-symbol="Ds" data-name="Darmstadtium" data-atomic-mass="281"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="111" data-symbol="Rg" data-name="Roentgenium" data-atomic-mass="282"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="112" data-symbol="Cn" data-name="Copernicium" data-atomic-mass="285"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="113" data-symbol="Nh" data-name="Nihonium" data-atomic-mass="286"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="114" data-symbol="Fl" data-name="Flerovium" data-atomic-mass="289"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="115" data-symbol="Mc" data-name="Moscovium" data-atomic-mass="289"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="116" data-symbol="Lv" data-name="Livermorium" data-atomic-mass="293"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="117" data-symbol="Ts" data-name="Tennessine" data-atomic-mass="294"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="118" data-symbol="Og" data-name="Oganesson" data-atomic-mass="294"><span class="number"></span><p></p><span class="mass"></span></div>
+            </div>
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="blank"></div><div class="blank"></div><div class="blank"></div>
+                <div class="element" data-atomic-number="58" data-symbol="Ce" data-name="Cerium" data-atomic-mass="223"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="59" data-symbol="Pr" data-name="Praseodymium" data-atomic-mass="226"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="60" data-symbol="Nd" data-name="Neodymium" data-atomic-mass="227"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="61" data-symbol="Pm" data-name="Promethium" data-atomic-mass="267"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="62" data-symbol="Sm" data-name="Samarium" data-atomic-mass="262"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="63" data-symbol="Eu" data-name="Europium" data-atomic-mass="269"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="64" data-symbol="Gd" data-name="Gadolinium" data-atomic-mass="264"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="65" data-symbol="Tb" data-name="Terbium" data-atomic-mass="269"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="66" data-symbol="Dy" data-name="Dysprosium" data-atomic-mass="278"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="67" data-symbol="Ho" data-name="Holmium" data-atomic-mass="281"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="68" data-symbol="Er" data-name="Erbium" data-atomic-mass="282"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="69" data-symbol="Tm" data-name="Thulium" data-atomic-mass="285"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="70" data-symbol="Yb" data-name="Ytterbium" data-atomic-mass="286"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="71" data-symbol="Lu" data-name="Lutetium" data-atomic-mass="289"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="blank"></div>
+            </div>
+            <div class="row">
+                <div class="blank"></div><div class="blank"></div><div class="blank"></div>
+                <div class="element" data-atomic-number="90" data-symbol="Th" data-name="Thorium" data-atomic-mass="223"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="91" data-symbol="Pa" data-name="Protactinium" data-atomic-mass="226"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="92" data-symbol="U" data-name="Uranium" data-atomic-mass="227"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="93" data-symbol="Np" data-name="Neptunium" data-atomic-mass="267"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="94" data-symbol="Pu" data-name="Plutonium" data-atomic-mass="262"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="95" data-symbol="Am" data-name="Americium" data-atomic-mass="269"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="96" data-symbol="Cm" data-name="Curium" data-atomic-mass="264"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="97" data-symbol="Bk" data-name="Berkelium" data-atomic-mass="269"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="98" data-symbol="Cf" data-name="Californium" data-atomic-mass="278"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="99" data-symbol="Es" data-name="Einsteinium" data-atomic-mass="281"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="100" data-symbol="Fm" data-name="Fermium" data-atomic-mass="282"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="101" data-symbol="Md" data-name="Mendelevium" data-atomic-mass="285"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="102" data-symbol="No" data-name="Nobelium" data-atomic-mass="286"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="element" data-atomic-number="103" data-symbol="Lr" data-name="Lawrencium" data-atomic-mass="289"><span class="number"></span><p></p><span class="mass"></span></div>
+                <div class="blank"></div>
+            </div>
+        </div>
+        <div id="key">
+            <ul>
+                
+            </ul>
+        </div>
+        <div id="element-info">
+            <span id="element-name">Hydrogen</span>
+            <div id="symbolBox">
+                <span id="element-symbol">H</span>
+            </div>
+            <div id="list">
+                <ul></ul>
+            </div>
+        </div>
+    </center>
+    <script src="idfk.js"></script>
+</body>
+</html>
